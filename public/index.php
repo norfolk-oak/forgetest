@@ -9,8 +9,8 @@
    <body>
       <div class="container">
          <div class="forbidden-sign"></div>
-         <h1>Access to this page is restricted.</h1>
-         <p>Ensure you have sufficient permissions to access the same.</p>
+         <h1>Access to this area is restricted.</h1>
+         <p>You do not have access to this area of our website, Please contact our technical team if this is incorrect.</p>
       </div>
    </body>
 </html>
