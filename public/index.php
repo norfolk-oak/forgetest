@@ -1,5 +1,27 @@
 <?php
 
-phpinfo();
+$root = $_SERVER['DOCUMENT_ROOT'];
+$title = 'IBCM | Server Default Page';
 
 ?>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title><?php echo $title; ?></title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="/style.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+      body 
+      {
+       font-family: "Lato", sans-serif
+      }
+      </style>
+   </head>
+   <body>
+     <h2><?php echo $title; ?></h2>
+     
+   </body>
+</html>
